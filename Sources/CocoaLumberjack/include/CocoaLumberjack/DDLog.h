@@ -915,3 +915,12 @@ typedef NS_OPTIONS(NSInteger, DDLogMessageOptions){
 @end
 
 NS_ASSUME_NONNULL_END
+
+#ifndef HPJRSLOG
+#define HPJRSLOG 1
+#if DEBUG
+    static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+    static const DDLogLevel ddLogLevel = DDLogLevelWarning;
+#endif
+#endif
