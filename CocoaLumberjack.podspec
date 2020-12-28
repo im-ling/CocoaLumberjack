@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 
   s.name     = 'CocoaLumberjack'
-  s.version  = '3.7.0'
+  s.version  = "3.7.0.3"
   s.license  = 'BSD'
   s.summary  = 'A fast & simple, yet powerful & flexible logging framework for macOS, iOS, tvOS and watchOS.'
-  s.homepage = 'https://github.com/CocoaLumberjack/CocoaLumberjack'
+  s.homepage = 'http://gitlab.hupu.com/iOSClient/HPLog'
   s.author   = { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
-  s.source   = { :git => 'https://github.com/CocoaLumberjack/CocoaLumberjack.git',
+  s.source   = { :git => 'git@gitlab.hupu.com:iOSClient/HPLog.git',
                  :tag => "#{s.version}" }
 
   s.description = 'It is similar in concept to other popular logging frameworks such as log4j, '   \
